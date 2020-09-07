@@ -22,44 +22,63 @@ describe("Unit testing the /healthz route", () => {
             0: [
               {
                 id: expect.any(String),
-                name: "The Dock",
-                disableMeeting: true,
+                name: "SRE & Release 1",
               },
               {
                 id: expect.any(String),
-                name: "Nebuchadnezzar",
+                name: "SRE & Release 2",
               },
               {
                 id: expect.any(String),
-                name: "Logos",
+                name: "Platform & Tools 1",
               },
               {
                 id: expect.any(String),
-                name: "Osiris",
+                name: "Platform & Tools 2",
               },
               {
                 id: expect.any(String),
-                name: "Icarus",
+                name: "Payroll 1",
               },
               {
                 id: expect.any(String),
-                name: "Caduceus",
+                name: "Payroll 2",
               },
               {
                 id: expect.any(String),
-                name: "Brahma",
+                name: "Payroll 3",
               },
               {
                 id: expect.any(String),
-                name: "Novalis",
+                name: "Payroll Integra",
               },
               {
                 id: expect.any(String),
-                name: "Vigilant",
+                name: "QA",
               },
               {
                 id: expect.any(String),
-                name: "Zion",
+                name: "Developers",
+              },
+              {
+                id: expect.any(String),
+                name: "People Ops",
+              },
+              {
+                id: expect.any(String),
+                name: "Runa All Hands",
+              },
+              {
+                id: expect.any(String),
+                name: "Coffee Break",
+              },
+              {
+                id: expect.any(String),
+                name: "Random Chats",
+              },
+              {
+                id: expect.any(String),
+                name: "Pair Programming",
               },
             ],
             status: "ok",

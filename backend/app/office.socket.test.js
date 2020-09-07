@@ -78,13 +78,13 @@ describe("Office server", () => {
   });
 
   it("should enter in query room on connect", (done) => {
-    ioOptions.query = `user=${defaultUser}&room=Nebuchadnezzar`;
+    ioOptions.query = `user=${defaultUser}&room=People Ops`;
 
     connectSocketServer();
 
     socketClient.on("connect", () => {
       socketClient.on("enter-room", () => {
-        expect(officeController.addUserInRoom.mock.calls[0][1]).toBe("Nebuchadnezzar");
+        expect(officeController.addUserInRoom.mock.calls[0][1]).toBe("People Ops");
         done();
       });
     });
@@ -112,7 +112,7 @@ describe("Office server", () => {
   });
 
   it("should emit error when given user is an invalid json", (done) => {
-    ioOptions.query = "user=invalid&room=Nebuchadnezzar";
+    ioOptions.query = "user=invalid&room=People Ops";
 
     connectSocketServer();
 
