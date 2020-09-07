@@ -7,15 +7,15 @@
   "env": {
     "GOOGLE_CLIENT_ID": {
       "description": "Google Client Id to the OAuth authentication",
-      "value": "xxxxxxx.apps.googleusercontent.com"
+      "value": "176537729725-9dj9jh0mmf42f5forh9bphsn8p8fu5he.apps.googleusercontent.com"
     },
     "GOOGLE_SECRET": {
       "description": "Google Secret to the OAuth authentication",
-      "value": "gXXXXXXXXXXXXXXss"
+      "value": "nCzUoPoEXXnBtrosaCncOeHX"
     },
     "GOOGLE_CALLBACK_URL": {
       "description": "The callback Url to the OAuth authentication",
-      "value": "https://${app.name}.herokuapp.com/auth/google/callback"
+      "value": "https://runahr-matrix.herokuapp.com/auth/google/callback"
     },
     "COOKIE_SESSION_SECRET": {
       "description": "The secret of session",
@@ -27,7 +27,7 @@
     },
     "WHITELIST_DOMAINS": {
       "description": "The list of valid email domains to enter in matrix",
-      "value": "[]"
+      "value": "[raul.work, runahr.com]"
     },
     "ENFORCE_SSL": {
       "description": "If you running in HTTPS this variable forces redirect to HTTPS when user access with HTTP",
